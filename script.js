@@ -4,6 +4,7 @@ const watchhov=document.querySelector(".Watch-hov")
 
 projectimg.forEach(function(item){
     item.addEventListener("mouseenter",function(){
+        item.style.height="250px"
         gsap.to(item.childNodes[3],{
             opacity:1,
             scale:1,
@@ -21,6 +22,7 @@ projectimg.forEach(function(item){
         })
     })
     item.addEventListener("mouseleave",function(){
+        item.style.height="auto"
         gsap.to( item.childNodes[3],{
             opacity:0,
             scale:0,
