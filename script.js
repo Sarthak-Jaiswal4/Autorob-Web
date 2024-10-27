@@ -37,12 +37,12 @@ projectimg.forEach(function(item){
             duration:0.7
         })
     })
-    item.addEventListener("mousemove",function(dets){
-        gsap.to(item.childNodes[3],{
-            x:dets.x-item.getBoundingClientRect().x,
-            y:dets.y-item.getBoundingClientRect().y
-        })
-    })
+    // item.addEventListener("mousemove",function(dets){
+    //     gsap.to(item.childNodes[3],{
+    //         x:dets.x-item.getBoundingClientRect().x,
+    //         y:dets.y-item.getBoundingClientRect().y
+    //     })
+    // })
 })
 
 video.addEventListener("mousemove",function(dets){
