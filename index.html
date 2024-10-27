@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="wrapper h-full w-full bg-zinc-900 text-white px-8">
+        <div class="page-1 h-screen w-full flex py-5 flex-col">
+            <nav class="flex justify-between w-full items-center h-[10%]">
+                <div>
+                    <img class="object-cover h-20" src="Autorob logo.png" alt="">
+                </div>
+                <div class="flex gap-12 text-lg ">
+                    <h2>Home</h2>
+                    <h2>Projects</h2>
+                    <h2>About Us</h2>
+                    <h2>Contact Us</h2>
+                </div>
+            </nav>
+            <div class="hero-content flex w-full h-[90%] gap-5 pt-20 px-10 flex-col items-center relative">
+                <div class="flex w-full flex-col text-center">
+                    <h1 class="text-6xl font-semibold">WELCOME TO AUTOROB</h1>
+                    <h3 class="text-3xl mt-4">JUSTIFYING THE 'T' IN HBTU</h3>
+                </div>
+                <div class="rounded-[30px] h-screen top-[50%] overflow-hidden absolute">
+                    <div class="px-2 py-2 bg-[#999999] text-black cursor-pointer rounded-full w-20 h-20 text-center absolute flex justify-center items-center Watch-hov hidden z-999 opacity-[70%]">Watch</div>
+                    <video src="lv_0_20241027123250.mp4" class="mt-[24px] rounded-full object-cover h-[500px] w-[900px] video" autoplay muted></video>
+                </div>
+            </div>
+        </div>
+        <div class="page-2 About mt-[350px] h-screen w-full flex justify-center items-center">
+            <div class="w-full  h-[90%] flex items-center gap-5">
+                <div class="w-[50%] p-5 ">
+                    <h1 class="text-6xl font-semibold">About Us</h1>
+                    <h3 class="text-2xl mt-7 leading-7">We are a crew of engineers operating collectively to make robotics accessible, fun, and easy to learn for every student.</h3>
+                    <button class="px-7 py-4 bg-sky-500 rounded-full mt-7 text-2xl">Join Us</button>
+                </div>
+                <div class="w-[50%] overflow-hidden">
+                    <img class="object-cover rounded-lg" src="about.jfif" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="page-3 projects h-screen w-full py-10">
+            <h1 class="text-7xl font-semibold mb-12 px-5 w-80 py-3">Projects</h1>
+            <div class="mx-10">
+                <div class="relative flex project w-full">
+                    <h1 class="text-4xl py-6 w-full">Robo Soccer</h1>
+                    <img class="absolute h-60 object-cover opacity-0 project-img rounded-lg" src="627f59e8450c5_robo-scoccer.jpg" alt="">
+                    <span class="absolute text-4xl right-[5%] top-[25%] opacity-0 bg-[#444] rounded-full px-2 py-2"><i class="ri-arrow-right-up-line"></i></span>
+                    <span class="absolute text-4xl right-[5%] top-[25%]"><i class="ri-arrow-right-line"></i></span>
+                </div>
+                <div class="relative flex project w-full">
+                    <h1 class="text-4xl py-6">Bionic Arm</h1>
+                    <img class="absolute h-60 object-cover opacity-0 project-img rounded-lg" src="WhatsApp Image 2023-01-20 at 6.25.13 PM.jpeg" alt="">
+                    <span class="absolute text-4xl right-[5%] top-[25%] opacity-0 bg-[#444] rounded-full px-2 py-2"><i class="ri-arrow-right-up-line"></i></span>
+                    <span class="absolute text-4xl right-[5%] top-[25%]"><i class="ri-arrow-right-line"></i></span>
+                </div>
+                <div class="relative flex project w-full">
+                    <h1 class="text-4xl py-6">River Cleaning Bot</h1>
+                    <img class="absolute h-60 object-cover opacity-0 project-img rounded-lg" src="river.jpg" alt="">
+                    <span class="absolute text-4xl right-[5%] top-[25%] opacity-0 bg-[#444] rounded-full px-2 py-2"><i class="ri-arrow-right-up-line"></i></span>
+                    <span class="absolute text-4xl right-[5%] top-[25%]"><i class="ri-arrow-right-line"></i></span>
+                </div>
+                <div class="relative flex project w-full">
+                    <h1 class="text-4xl py-6 ">3D Printer</h1>
+                    <img class="absolute h-60 object-cover opacity-0 project-img rounded-lg" src="61UtNlSmPaL._SX342_ (1).jpg" alt="">
+                    <span class="absolute text-4xl right-[5%] top-[25%] opacity-0 bg-[#444] rounded-full px-2 py-2"><i class="ri-arrow-right-up-line"></i></span>
+                    <span class="absolute text-4xl right-[5%] top-[25%]"><i class="ri-arrow-right-line"></i></span>
+                </div>
+                <div class="relative flex project w-full">
+                    <h1 class="text-4xl py-6">Hovercraft</h1>
+                    <img class="absolute h-60 object-cover opacity-0 project-img rounded-lg" src="maxresdefault (1).jpg" alt="">
+                    <span class="absolute text-4xl right-[5%] top-[25%] opacity-0 bg-[#444] rounded-full px-2 py-2"><i class="ri-arrow-right-up-line"></i></span>
+                    <span class="absolute text-4xl right-[5%] top-[25%]"><i class="ri-arrow-right-line"></i></span>
+                </div>
+                              
+            </div>
+        </div>
+        <div class="page-4 w-full h-screen">
+
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

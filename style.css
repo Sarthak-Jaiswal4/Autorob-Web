@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.project{
+    border-bottom: 1px solid #444;
+    color: #999;
+    transition:ease-in-out 0.5s;
+}
+.project:hover{
+    cursor: pointer;
+    color: white;
+    position: relative;
+    left: 5%;
+}
+.heading-font{
+    font-family: monospace;
+}
